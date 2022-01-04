@@ -1,0 +1,31 @@
+.header {
+    height: 120px;
+    background-image: linear-gradient(0, #f53f2d, #fe6332);
+
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    
+}
+.navbar__left, .navbar__right {
+    list-style: none;
+    padding-left: 0px;
+
+}
+.navbar__left--item, .navbar__right--item {
+    display: inline-block;
+    text-decoration: none;
+    color: var(--white-color);
+    font-size: 1.5rem;
+    font-weight: 300;
+    padding: 0 8px;
+
+}
+
+.navbar__left--item-link, .navbar__right--item-link {
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: var(--white-color);
+}
