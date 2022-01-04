@@ -12,20 +12,47 @@
 .navbar__left, .navbar__right {
     list-style: none;
     padding-left: 0px;
+    margin-top:8px ;
 
 }
 .navbar__left--item, .navbar__right--item {
     display: inline-block;
     text-decoration: none;
     color: var(--white-color);
-    font-size: 1.5rem;
+    font-size: 1.4rem;
     font-weight: 300;
     padding: 0 8px;
+    position: relative;
 
 }
 
 .navbar__left--item-link, .navbar__right--item-link {
     text-decoration: none;
-    font-size: 1.5rem;
+    font-size: 1.4rem;
     color: var(--white-color);
+}
+
+.navbar__right--item--strong {
+    font-weight: 400;
+}
+
+
+.navbar__left--item--separate::after {
+    content: "";
+    display: block;
+    position: absolute;
+    height: 14px;
+    border-left: 1px solid #FB9086;
+    right:0;
+    top: 0;
+}
+
+.navbar__right--item--separate::after {
+    content: "";
+    display: block;
+    position: absolute;
+    height: 14px;
+    border-left: 1px solid #FB9086;
+    right:0;
+    top: 0;
 }
