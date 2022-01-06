@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="/fonts/themify-icons/themify-icons.css">
     <link rel="stylesheet" href="/css/base.css">
     <link rel="stylesheet" href="/css/main.css">
+    <script src="/js/shopee.js"></script>  
     <title>Shoopee</title>
 </head>
 <body>
@@ -103,7 +104,8 @@
                              </div>
                             
                         </li>
-                        <li class="navbar__right--item navbar__right--item--strong navbar__right--item--separate">Đăng ký</li>
+                        <li id="js-register" onclick = showModalRegister()
+                        class="js-register navbar__right--item navbar__right--item--strong navbar__right--item--separate" >Đăng ký</li>
                         <li class="navbar__right--item navbar__right--item--strong">Đăng nhập</li>
                     </ul>
     
@@ -118,6 +120,82 @@
 
         </footer>
     </div>
+    <!--Modal -->
+    <div class="modal jsmodalregister" id="myModal">
+        <div class="modal__overlay">
+        </div>
+        <div class="modal__body">
+            <!--register form-->
+            <div class="authecation-form">
+                <div class="authecation-form__header">
+                    <h3 class="authecation-form__register">Đăng ký</h3>
+                    <span class="authecation-form__swith-btn">Đăng nhập</span>
+                </div>
+                <div class="authecation-form__info">
+                    <div class="authecation-form__group">
+                        <input type="text" required
+                        class="authecation-form__input" placeholder="Email">
+                    </div>
+                    <div class="authecation-form__group">
+                        <input type="password" 
+                        class="authecation-form__input" placeholder="Nhập mật khẩu">
+                    </div>
+                    <div class="authecation-form__group">
+                        <input type="password" class="authecation-form__input" placeholder="Nhập lại mật khẩu">
+                    </div>
+                </div>
+                <div class="authecation-form__agree">
+                    <p class="authecation-form__policy-text">Bằng việc đăng kí, bạn đã đồng ý với Shopee về 
+                        <a href="" class="authecation-form__policy-link">Điều khoản dịch vụ </a> & 
+                        <a href="" class="authecation-form__policy-link">Chính sách bảo mật</a>
+                    </p>
+                </div>
+
+                <div class="authecation-form__controls">
+                    <button class="js-modal-close btn">Trở lại</button>
+                    <button class="btn btn--primary">Đăng Ký</button>
+                </div>
+
+                <div class="authecation-form__sicial">
+                    <a href="" class="btn btn--with-icon">
+                        <i class="ti-facebook"></i>
+                        <span class="authecation-form__sicial-title">Facebook</span>
+                    </a>
+                    <a href="" class="btn btn--with-icon">
+                        <i class="ti-google"></i>
+                        <span class="authecation-form__sicial-title">Google</span>
+                    </a>
+                </div>
+
+            </div>
+            
+
+        </div>
+    </div>
+
+    <script>
+            console.log('xin chào');
+            //var register = document.getElementById("js-register");
+            const modal = document.getElementById('myModal');
+            const modalRegister = document.querySelector('.js-register');
+            closeRegister = document.querySelector('.js-modal-close');
+            modalRegister.addEventListener('click',showModalRegister );
+            closeRegister.addEventListener('click',hideModalRegister );
+            
+
+
+            function showModalRegister(){
+                console.log('da click');
+                modal.classList.add('open');
+                
+            };
+
+            function hideModalRegister(){
+                console.log('da click đóng modal');
+                modal.classList.remove('open');
+            }
+
+    </script>
     
 </body>
 </html>

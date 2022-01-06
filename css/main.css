@@ -134,7 +134,9 @@
     display:none;
     transform-origin: 90% top;
     will-change: opacity, transform;
-    animation: navbarNotificationGrowth ease-in 0.3s;
+    animation: navbarNotificationGrowth ease-in-out 0.3s forwards;
+    animation-duration: 0.3s;
+    animation-direction: normal, reverse;
 
 }
 
@@ -280,7 +282,8 @@
     border-radius: 2px;
     transform-origin: 90% top;
     will-change: opacity, transform;
-    animation: navbarNotificationGrowth ease-in 0.3s;
+    animation: navbarNotificationGrowth ease-in-out 0.3s backwards;
+    animation-direction: normal, reverse;
 
 }
 .navbar__language-list {

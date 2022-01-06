@@ -3,6 +3,7 @@
     --white-color: #fff;
     --black-color: #000;
     --text-color: #333;
+    --border-color: #dbdbdb;
 }
 
 *{
@@ -42,3 +43,161 @@ html {
 }
 
 
+/* Modal */
+
+.modal {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    /* display: flex; */
+    display: none;
+    
+}
+
+.modal.open{
+    display: flex;
+}
+
+.modal__overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+    z-index: 4;
+
+}
+
+.modal__body {
+    margin: auto;
+    background-color: var(--white-color);
+    z-index: 6;
+    position: relative;
+    border-radius: 5px;
+}
+
+
+.authecation-form {
+    padding: 0 30px;
+    width: 400px;
+    min-height: 500px;
+    
+}
+
+.authecation-form__header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 8px;
+
+}
+
+.authecation-form__register {
+    font-size: 1.8rem;
+    font-weight: 400;
+    
+
+}
+
+.authecation-form__swith-btn {
+    font-size: 1.4rem;
+    color: var(--primary-color);
+    font-weight: 400;
+    cursor: pointer;
+
+}
+
+.authecation-form__info {
+    
+
+}
+
+.authecation-form__group {
+
+}
+
+.authecation-form__input {
+    height:40px;
+    width: 100%;
+    margin-top: 16px;
+    padding: 0 14px;
+    font-size: 1.4rem;
+    border-radius: 2px;
+    border: 1px solid var(--border-color);
+    outline: #fff;
+
+}
+
+.authecation-form__input:focus {
+    border-color: #777;
+
+}
+
+.authecation-form__agree {
+    padding: 16px 30px;
+
+
+
+}
+
+.authecation-form__policy-text {
+    font-size: 1.3rem;
+    text-align: center;
+    line-height: 1.8rem ;
+
+}
+
+.authecation-form__policy-link {
+    text-decoration: none;
+    color: var(--primary-color);
+    cursor: pointer;
+
+}
+
+.authecation-form__controls {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.authecation-form__sicial {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+
+
+}
+
+.btn.btn--with-icon {
+    /* text-align: center; */
+    background-color: #1877f2;
+    color: var(--white-color);
+    border-radius: 2px;
+    
+    
+}
+
+.authecation-form__sicial-title {
+    margin: 0 12px;
+}
+
+.btn {
+    min-width: 140px;
+    min-height: 34px;
+    text-decoration: none;
+    border: none;
+    font-size: 1.4rem;
+    /* outline: none; */
+    cursor: pointer;
+    color: var(--text-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn.btn--primary {
+    background-color: var(--primary-color);
+    color: var(--white-color);
+    border-radius: 2px;
+}
