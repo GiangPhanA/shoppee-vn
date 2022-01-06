@@ -27,6 +27,7 @@
     border-radius: 2px;
     display:none;
     animation:fadeIn ease-in 0.8s;
+    z-index: 3;
 }
  /* Vùng đệm để hover */
 .navbar__qrcode::before {
