@@ -59,6 +59,9 @@ html {
 .modal.open{
     display: flex;
 }
+.modal-login {
+    display: none;
+}
 
 .modal__overlay {
     position: absolute;
@@ -81,8 +84,11 @@ html {
 .authecation-form {
     padding: 0 30px;
     width: 400px;
-    min-height: 500px;
-    
+    min-height: 500px;  
+}
+
+.authecation-form-login {
+    min-height: 420px; 
 }
 
 .authecation-form__header {
@@ -200,4 +206,31 @@ html {
     background-color: var(--primary-color);
     color: var(--white-color);
     border-radius: 2px;
+}
+
+/* Login form */
+.authecation-form__login {
+    padding: 16px 10px;
+    display: flex;
+    justify-content:space-between;
+
+}
+.authecation-form__login-text {
+    font-size: 1.3rem;
+    text-align: center;
+    line-height: 1.8rem ;
+
+}
+.authecation-form__login-link {
+    text-decoration: none;
+    color: blue;
+    cursor: pointer;
+
+}
+
+.authecation-form__login-or {
+    text-align: center;
+    font-size: 1.3rem;
+    line-height: 1.8rem ;
+    color: #777;
 }
