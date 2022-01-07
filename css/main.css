@@ -83,6 +83,8 @@
     border-radius: 50%;
     border: 1px solid #999;
     text-align: center;
+    position: relative;
+    top: -2px;
 }
 .navbar__right-user-name {
     margin-left: 4px;
