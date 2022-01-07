@@ -425,6 +425,7 @@
     box-shadow: 0 2px 10px #ccc;
     display: none;
     z-index: 3;
+    cursor: default;
 
 }
 
@@ -448,6 +449,7 @@
     top:-30px;
     border-width: 20px 26px;
     border-style: solid;
+    cursor: pointer;
     border-color: transparent transparent var(--white-color)  transparent;
 }
 
@@ -463,6 +465,9 @@
 
 .search__cart-no-cart-img {
     width: 40%;
+    display: none;
+    margin-left: auto;
+    margin-right: auto;
 
 }
 
@@ -472,8 +477,29 @@
     color: var(--text-color);
     margin-top: 16px;
     /* padding: 16px 0; */
+    display: none;
+}
+
+.search__cart-list--no-cart .search__cart-no-cart-img,
+.search__cart-list--no-cart .search__cart-list-no-cart-message {
     display: block;
-   
+}
+
+/* search cart notice */
+
+.search__cart-notice {
+    position: absolute;
+    color: var(--primary-color);
+    background-color: var(--white-color);
+    top: -6px;
+    font-size: 1.6rem;
+    line-height: 1.6rem;
+    border-radius: 10px;
+    border: 2px solid #ee4d2d;
+    padding: 2px 8px;
+    text-align: center;
+    /* right: 2px */
+
 
 }
 
