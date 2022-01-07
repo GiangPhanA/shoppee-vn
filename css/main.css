@@ -258,7 +258,7 @@
     
 }
 
-
+/* Mũi tên */
 .navbar__notification::after {
     position: absolute;
     /* width: 100%; */
@@ -286,6 +286,7 @@
     will-change: opacity, transform;
     animation: navbarNotificationGrowth ease-in-out 0.3s backwards;
     animation-direction: normal, reverse;
+    z-index: 3;
 
 }
 .navbar__language-list {
@@ -400,10 +401,80 @@
     
 }
 
+/* Cart - header */
 .search__cart {
     width: 140px;
+    text-align: center;   
+}
+
+.search__cart-wrap {
+    position: relative;
+    cursor: pointer;
+    display: inline-block;
+    padding: 0px 12px;
+
+}
+
+.search__cart-list {
+    position: absolute;
+    top: 110%;
+    right: 2px;
+    background-color: var(--white-color);
+    width: 380px;
+    border-radius: 2px;
+    box-shadow: 0 2px 10px #ccc;
+    display: none;
+    z-index: 3;
+
+}
+
+/* Vùng đệm */
+.search__cart-list::before {
+    position: absolute;
+    width: 100%;
+    height: 30px;
+    content:"";
+    display:block;
+    left: 0px;
+    top: -30px;
+}
+
+/* Mũi tên  */
+.search__cart-list::after {
+    position: absolute;
+    content: "";
+    display: block;
+    right: 8px;
+    top:-30px;
+    border-width: 20px 26px;
+    border-style: solid;
+    border-color: transparent transparent var(--white-color)  transparent;
+}
+
+.search__cart-wrap:hover .search__cart-list {
+    display: block;
+    
+} 
+
+.search__cart-list--no-cart {
+    padding: 44px 0px;
+
+}
+
+.search__cart-no-cart-img {
+    width: 40%;
+
+}
+
+.search__cart-list-no-cart-message {
+    font-size: 1.4rem;
     text-align: center;
+    color: var(--text-color);
+    margin-top: 16px;
+    /* padding: 16px 0; */
+    display: block;
    
+
 }
 
 .search__main-btn {
@@ -489,14 +560,21 @@
 }
 
 .search__main-history-header {
-    height: 38px;
+    height: 42px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    
 
 }
+
+.search__main-history-header:hover {
+    background-color: #fafafa;
+    cursor: pointer;
+}
+
 .search__main-history-title {
-    margin: 8px 16px;
+    margin: 6px 16px;
     color: var(--black-color);
     font-size: 1.6rem;
     font-weight: 300;
@@ -504,14 +582,14 @@
 }
 
 .search__main-history-img {
-    height: 38px;
-    padding: 5px 12px;
+    height: 42px;
+    padding: 7px 12px;
 }
 
 .search__main-history-list {
     list-style: none;
     padding-left: 0px;
-    margin: 6px 0 0;
+    margin: 0px 0 0;
 }
 
 .search__main-history-item {
@@ -531,5 +609,6 @@
     font-weight: 300;
     padding-left: 16px;
     line-height: 38px;
+    display: block;
 
 }
