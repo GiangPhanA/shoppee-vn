@@ -183,6 +183,7 @@ html {
     border-radius: 2px;
     
     
+    
 }
 
 .authecation-form__sicial-title {
@@ -190,7 +191,7 @@ html {
 }
 
 .btn {
-    min-width: 140px;
+    min-width: 142px;
     min-height: 34px;
     text-decoration: none;
     border: none;
