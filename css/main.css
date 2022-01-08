@@ -75,6 +75,7 @@
     justify-content: center;
     position: relative;
     align-items: center;
+    
 
 }
 .navbar__right-user-avarta {
@@ -105,6 +106,8 @@
     border-radius: 2px;
     box-shadow: 0 2px 10px #ccc;
     display: none;
+    will-change: opacity, transform;
+    animation: navbarNotificationGrowth ease-in-out 0.3s backwards;
 }
 
 .navbar__right-user-menu-item {
@@ -120,13 +123,24 @@
     font-weight: 300;
     display: block;
     padding: 10px 16px;
-
 }
+
+.navbar__right-user-menu-item a:first-child {
+    border-top-left-radius: 2px;
+    border-top-right-radius: 2px;
+}
+
+.navbar__right-user-menu-item a:last-child {
+    border-bottom-left-radius: 2px;
+    border-bottom-right-radius: 2px;
+}
+
 
 .navbar__right-user-menu-item a:hover {
     cursor: pointer;
     color: red;
     background-color: #fafafa;
+    overflow: hidden;
     
 }
 
