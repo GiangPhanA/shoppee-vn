@@ -829,4 +829,29 @@
 
 }
 
+/* slider */
+.navbar__slider-a {
+    background: url('/img/slider/slide_bar.png') top center / cover no-repeat;
+    
+
+}
+
+.navbar__slider {
+    background: url('/img/slider/slide_bar.png') top center / cover no-repeat;
+
+}
+
+.navbar__slider-main {
+    background-color:greenyellow;
+    height: 300px;
+   
+
+}
+
+.navbar__slider-add {
+    background-color: blue;
+    height: 300px;
+    
+
+}
 
