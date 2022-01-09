@@ -829,7 +829,13 @@
 
 }
 
-/* slider */
+/* navbar main */
+
+.navbar-main {
+    background-color: #f5f5f5;
+}
+
+/* slider */ 
 
 .navbar__slider {
     background: url('/img/slider/slide_bar.png') top center / cover no-repeat;
@@ -842,6 +848,8 @@
     margin-top: 32px;
     background-color: yellow;
     height: 236px;  
+    margin-left: 0px;
+    padding-left: 0px;
 }
 
 .navbar__slider-main-img {
@@ -849,6 +857,8 @@
     height: 100%;
     margin-bottom: 0px;
     padding-bottom: 0px;
+    margin-left: 0px;
+    padding-left: 0px;
 }
 
 .navbar__slider-add {
@@ -881,26 +891,26 @@
 }
 
 
+
 /* navbar-application */
 
-.navbar-application {
-    background-color: var(--white-color);
+.navbar__application {
     display: block;
-    padding: 16px 4px;
-    height: 110px;
-
+    margin: 10px 10px;
+    /* height: 110px; */
 }
 
-.navbar-application-tech-zone {
-    height: 81px;
+.navbar__application-tech-zone {
+    height: 110px;
     display: flex;
     justify-content: space-around;
     flex: 1;
     align-items: center;
-
+    background-color: var(--white-color);
+    
 }
 
-.navbar-application-tech-zone-link {
+.navbar__application-tech-zone-link {
     text-decoration: none;
     font-size: 1.4rem;
     line-height: 1.4rem;
@@ -914,18 +924,18 @@
 
 }
 
-.navbar-application-tech-zone-link:hover {
+.navbar__application-tech-zone-link:hover {
     cursor: pointer;
     transform: translateY(-2px);
 }
 
-.navbar-application-tech-zone-img {
+.navbar__application-tech-zone-img {
     height: 45px;
     text-align: center;
 
 }
 
-.navbar-application-tech-zone-title {
+.navbar__application-tech-zone-title {
     text-align: center;
     padding-top: 8px;
     display: -webkit-box;
@@ -940,6 +950,46 @@
 
 /* navbar-banner-first */
 
-.navbar-banner-first {
-    margin-top: 24px;
+.navbar__banner-first {
+    margin-top: 16px;
+    margin-left: 0px;
+    padding-left: 0px;
+}
+
+
+.special-brand {
+    margin-top: 16px;   
+}
+
+.special-brand__main {
+    background-color: var(--text-color);
+}
+
+.special-brand__main-img {
+    background-color: var(--text-color);
+}
+
+.special-brand__wrap {
+    height: 300px;
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    justify-content: space-around;
+    margin: 0 9px;
+    
+}
+
+.special-brand__produce {
+    background-color: green;
+    width: 50%;
+    margin: 0px 8px;
+    /* height: 100%; */
+
+}
+
+.special-brand__brand {
+    background-color: blue;
+    width: 50%;
+    margin-right: 16px;
+    /* height: 100%; */
 }
