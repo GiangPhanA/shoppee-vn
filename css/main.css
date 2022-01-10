@@ -1087,7 +1087,7 @@
     /* background-color: var(--white-color); */
     display: flex;
     justify-content: space-around;
-    margin: 0 9px;
+    margin: 0 8px;
     
    
 }
@@ -1112,7 +1112,7 @@
 }
 
 .produce__good-list {
-    background-color: blue;
+    background-color: var(--white-color);
     height: 100%;
     width: 100%;
     margin: 0 1px;
