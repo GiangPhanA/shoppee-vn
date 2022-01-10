@@ -541,6 +541,10 @@
     display: none;
     z-index: 3;
     cursor: default;
+    transform-origin: 90% top;
+    will-change: opacity, transform;
+    animation: navbarNotificationGrowth ease-in-out 0.3s backwards;
+    animation-direction: normal, reverse;
 
 }
 

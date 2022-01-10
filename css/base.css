@@ -48,8 +48,8 @@ html {
 }
 
 .grid__column-4 {
-    padding-left: 4px;
-    padding-right: 4px;
+    padding-left: 2px;
+    padding-right: 2px;
     width: 33.334%;
 }
 
