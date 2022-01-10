@@ -1008,7 +1008,8 @@
     margin: auto;
     margin-left: 28px;
     font-size: 1.6rem;
-    color: var(--primary-color)
+    color: var(--primary-color);
+    font-weight: 300;
 }
 
 .brand-producer__producer-add {
@@ -1016,12 +1017,14 @@
     font-size: 1.2rem;
     color: var(--primary-color);
     text-decoration: none;
+    font-weight: 300;
 }
 
 .brand-producer__producer-add i {
     font-size: 1rem;
     color: var(--primary-color);
     text-decoration: none;
+    
 
 }
 
@@ -1037,7 +1040,8 @@
     margin: auto;
     margin-left: 28px;
     font-size: 1.6rem;
-    color: var(--primary-color)
+    color: var(--primary-color);
+    font-weight: 300;
 }
 
 .brand-producer__brand-add {
@@ -1045,6 +1049,7 @@
     font-size: 1.2rem;
     color: var(--primary-color);
     text-decoration: none;
+    font-weight: 300;
 }
 
 .brand-producer__brand-add i {
