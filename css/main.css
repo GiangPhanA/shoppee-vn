@@ -1162,19 +1162,23 @@
 
 .produce__good-list-item-title {
     display: flex;
-    align-items: center;
     justify-content: center;
     margin-top: 10px;
+    flex-direction: row;
+    /* align-self: flex-end; */
 
 }
 
 .produce__good-list-unit {
-    /* margin: auto; */
+    font-size: 1.2rem;
+    line-height: 1.2rem;
+    font-weight: 400;
+  
 
 }
 
 .produce__good-list-prince {
-    /* margin: auto; */
+    padding: 2px;
 
 }
 
