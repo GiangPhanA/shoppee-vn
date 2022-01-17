@@ -1,4 +1,9 @@
-
+const items = ["A","B","C"];
+const obj = {
+[items]: "Hello"
+}
+console.log(obj); 
+console.log(obj["A,B,C"]);
 
 // $(document).ready(function(){
 //     console.log('xin chào Giang');
@@ -60,3 +65,4 @@ function callShowModaRegister(){
     modalLoginForm.classList.remove('open');
     modalRegisterForm.classList.add('open');
 }
+

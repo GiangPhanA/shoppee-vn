@@ -35,6 +35,13 @@ html {
     
 }
 
+.grid__column-1-10 {
+    padding-left: 0px;
+    padding-right: 0px;
+    width: 10%;
+
+}
+
 .grid__column-2 {
     padding-left: 4px;
     padding-right: 4px;
