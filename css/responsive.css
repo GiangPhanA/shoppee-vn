@@ -1,0 +1,130 @@
+/* Mobile & table */
+@media (max-width: 1023px) {
+    .hiden-on-mobile-table {
+        display: none;
+    }
+
+}
+
+/* Table*/
+
+@media (min-width: 740px) and (max-width: 1023px) {
+    .hiden-on-table {
+        display: none;
+    }
+    .header {
+        height: 90px;
+    }
+    .search {
+        min-height: 40px;
+    }
+    .search__main {
+        height: 30px;
+    }
+    .search__main-input {
+        font-size: 1.4rem;
+        font-weight:300;
+        padding: 0 16px;   
+    }
+    .search__main-history-img {
+        height: 36px;
+    }
+    .search__main-history-title {
+        font-size: 1.2rem;
+        font-weight: 400;
+
+    }
+    .search__main-btn {
+        width: 44px;
+        padding: 5px;
+        margin-right: 3px;
+        margin-left: 3px;
+        border-radius: 2px;
+        border: none;
+        
+    }
+    .search__cart {
+        width: 60px;
+        text-align: center;   
+    }
+    .search__cart-icon {
+        font-size: 2rem;        
+    }
+    .search__cart-notice {
+        top: -11px;
+        font-size: 1.2rem;
+        line-height: 1.2rem;
+        border-radius: 8px;
+        border: 2px solid #ee4d2d;
+        padding: 1px 4px;
+ 
+    }
+    .navbar__left--item, .navbar__right--item {
+        font-size: 1rem;
+        font-weight: 400;
+        padding: 0 4px;     
+    }
+
+    .navbar__right--item-link {
+        font-size: 1rem;
+        font-weight: 300;
+        padding: 0 0px;
+        
+    }
+
+    .navbar__right-user-name {
+        font-size: 1rem;
+        font-weight: 400;
+        padding: 0 0px;
+      
+    }
+    .navbar__left--item-link, .navbar__right--item-link {
+        font-size: 1rem;
+        font-weight: 300;
+
+    }
+
+    .navbar__notification-title {
+        font-size: 0.8rem;
+        line-height: 0.8rem;
+        border-radius: 6px;
+        padding: 1px 3px;
+        left: 10px;
+    }
+    .search--logo {
+        width: 120px;
+    }
+    .search--log-img {
+        width: 100px;  
+    }
+ 
+
+    .navbar__left, .navbar__right {
+        list-style: none;
+        padding-left: 0px;
+        margin-top:8px ;
+    
+    }
+    .navbar-horizontal {
+        height: 12px;
+        margin-left: 80px;
+    
+    }
+    .navbar-horizontal__item-link {
+        font-size: 1rem;
+        line-height: 1rem;
+    
+    }
+
+
+}
+
+
+/* Mobile*/
+
+@media (max-width: 739px) {
+    .hiden-on-mobile {
+        display: none;
+    }
+
+}
