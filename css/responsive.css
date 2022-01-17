@@ -116,6 +116,16 @@
     
     }
 
+    .navbar__banner-first {
+        width: 100%;
+        height: 60px;
+    }
+
+    .navbar__banner-first-img {
+        padding-top: 10%;
+
+    }
+
 
 }
 
