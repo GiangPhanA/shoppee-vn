@@ -1,0 +1,183 @@
+        <!--Navbar brand and producer-->
+
+        <div class="special-brand hiden-on-mobile-table">
+                <div class="grid wide">
+                    <div class="row">
+                        <div class="col l-12 m-12 c-12">
+                            <div class="special-brand__main">
+                                <div class="special-brand__main-img" style="background-image: url('/img/Better-produce/Better1.png');"></div>
+                                <div class="special-brand__header">
+                                   
+                                    <div class="special-brand__header-img" style="background-image: url('/img/Better-produce/pink1.png');
+                                        padding-top: 25%;
+                                        background-repeat: no-repeat;
+                                        background-size: contain;
+                                        background-position: center">
+                                
+                                   </div>
+                                </div>
+    
+                                <div class="brand-producer">
+                                    <div class="l-6 m-6 c-6">
+                                        <div class="brand-producer__producer">
+                                            <div class="brand-producer__producer-title">THÊM VÀO GIỎ NGAY</div>
+                                            <a href="" class="brand-producer__producer-add">Xem Thêm
+                                                <i class="ti-angle-right"></i>
+                                            </a>
+                                         
+                                        </div>
+    
+                                    </div>
+    
+    
+                                    <div class="l-6 m-6 c-6">
+                                        <div class="brand-producer__brand">
+                                            <div class="brand-producer__brand-title">THƯƠNG HIỆU NỔI BẬT</div>
+                                                <a href="" class="brand-producer__brand-add">Xem Thêm
+                                                    <i class="ti-angle-right"></i>
+                                                </a>
+                                        </div>
+                                    </div>
+    
+    
+                                </div>
+    
+                                <div class="special-brand__wrap">
+                                    <div class="l-6 m-6 c-6">
+                                        <div class="special-brand__produce">
+                                        
+                                            <div class="special-brand__produce-list">
+                                                <div class="l-4 m-4 c-4">
+                                                    <div class="produce__good-list">
+                                                        <a href="" class="produce__good-list-item">
+                                                            <div class="produce__good-list-img-test" style="background-image: url('/img/Better-produce/producer1.jpg');"></div>
+                                                            
+                                                            <div class="produce__good-list-item-title">
+                                                                <span class="produce__good-list-unit">đ</span>
+                                                                <span class="produce__good-list-prince">124.000</span>
+                                                            </div>
+
+                                                            <div class="produce__good-list-promotions">
+                                                                <span class="produce__good-list-promotions-title">35%</span>
+                                                                <span class="produce__good-list-promotions-reduce">GIẢM</span>
+                                                            </div>
+                                                        </a>
+                                                        
+                                                    </div>
+                                                </div>
+
+                                                <div class="l-4 m-4 c-4">
+                                                    <div class="produce__good-list">
+                                                        <a href="" class="produce__good-list-item">
+                                                            <img src="/img/Better-produce/producer2.png" alt="" class="produce__good-list-img">
+                                                            <div class="produce__good-list-item-title">
+                                                                <span class="produce__good-list-unit">đ</span>
+                                                                <span class="produce__good-list-prince">49.000</span>
+                                                            </div>
+
+                                                            <div class="produce__good-list-promotions">
+                                                                <span class="produce__good-list-promotions-title">46%</span>
+                                                                <span class="produce__good-list-promotions-reduce">GIẢM</span>
+                                                            </div>
+
+                                                        </a>
+                                                        
+
+                                                    </div>
+                                                </div>
+
+                                                <div class="l-4 m-4 c-4">
+                                                    <div class="produce__good-list">
+                                                        <a href="" class="produce__good-list-item">
+                                                            <img src="/img/Better-produce/producer3.jpg" alt="" class="produce__good-list-img">
+                                                            <div class="produce__good-list-item-title">
+                                                                <span class="produce__good-list-unit">đ</span>
+                                                                <span class="produce__good-list-prince">45.000</span>
+                                                            </div>
+
+                                                            <div class="produce__good-list-promotions">
+                                                                <span class="produce__good-list-promotions-title">25%</span>
+                                                                <span class="produce__good-list-promotions-reduce">GIẢM</span>
+                                                            </div>
+
+                                                        </a>
+                                                       
+
+                                                    </div>
+                                                </div>
+
+                                                
+
+                                            </div>
+                                      </div>
+                                    
+                                    </div>
+
+                                    <div class="l-4 m-4 c-4">
+                                        <div class="special-brand__produce">
+                                        
+                                            <div class="special-brand__produce-list">
+                                                <div class="grid__column-4">
+                                                    <div class="produce__good-list">
+                                                        <a href="" class="produce__good-list-item">
+                                                            <div class="produce__good-list-img-test" style="background-image: url('/img/Better-produce/brand2.jpg');"></div>
+                                                            
+                                                            <div class="produce__good-list-item-title">
+                                                                <span class="produce__good-list-prince">GIÁM GIÁ ĐẾN 30%</span>
+                                                            </div>
+
+
+                                                        </a>
+
+                                                    </div>
+                                                </div>
+
+                                                <div class="l-4 m-4 c-4">
+                                                    <div class="produce__good-list">
+                                                        <a href="" class="produce__good-list-item">
+                                                            <div class="produce__good-list-img-test" style="background-image: url('/img/Better-produce/brand2.jpg');"></div>
+                                                            
+                                                            <div class="produce__good-list-item-title">
+                                                                <span class="produce__good-list-prince">GIÁM GIÁ ĐẾN 35%</span>
+                                                            </div>
+
+
+                                                        </a>
+
+                                                    </div>
+                                                </div>
+
+                                                <div class="l-4 m-4 c-4">
+                                                    <div class="produce__good-list">
+                                                        <a href="" class="produce__good-list-item">
+                                                            <div class="produce__good-list-img-test" style="background-image: url('/img/Better-produce/brand2.jpg');"></div>
+                                                            
+                                                            <div class="produce__good-list-item-title">
+                                                                <span class="produce__good-list-prince">GIÁM GIÁ ĐẾN 40%</span>
+                                                            </div>
+
+
+                                                        </a>
+
+                                                    </div>
+                                                </div>
+
+                                               
+                                            </div>
+                                      </div>
+                                    
+                                    </div>
+                                    
+
+    
+
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- End Navbar brand and producer-->
