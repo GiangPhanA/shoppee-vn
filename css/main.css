@@ -1272,14 +1272,15 @@
 .navbar__category--header-title {
     width: 100%;
     background-color: var(--white-color);
-    line-height: 2rem;
+    line-height: 62px;
     font-size: 2rem;
-    color: var(--text-color);
-    padding: 16px 32px;
+    color: rgba(0,0,0,.54);
+    padding: 0px 32px;
     float: left;
     height: 62px;
     font-weight: 300;
     border-bottom: 1px solid #f2f2f2;
+    border-bottom: 1px solid rgba(0,0,0,.05);
 
     
 }
