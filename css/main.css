@@ -972,6 +972,7 @@
 
 .navbar__application-tech-zone-title {
     min-height: 31px;
+    max-width: 150px;
     text-align: center;
     padding-top: 8px;
     display: -webkit-box;
