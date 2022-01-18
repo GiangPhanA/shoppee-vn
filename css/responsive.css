@@ -97,6 +97,9 @@
     .search--log-img {
         width: 100px;  
     }
+    .search__cart-list {
+        top: 135%;
+    }
  
 
     .navbar__left, .navbar__right {
