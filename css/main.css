@@ -1343,14 +1343,15 @@
     margin: auto;
     width: 500px; 
     height: 500px;
+    top: 40px;
 
 }
 
 .modal--input-header {
     position: absolute;
     display: flex;
-    top: -20px;
-    right: 0;
+    top: 20px;
+    right: 60px;
     width: 10%;
     height: 10%;
     cursor: pointer;
@@ -1374,7 +1375,7 @@
 }
 
 .modal--input-info-img {
-    padding-top: 110%;
+    padding-top: 100%;
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;

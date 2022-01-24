@@ -4,6 +4,7 @@
         display: none;
     }
 
+
 }
 
 /* Table*/
@@ -251,6 +252,19 @@
     .navbar__banner-first-img {
         padding-top: 10%;
 
+    }
+    /* Modal input khong xoa */
+    .modal__body--input {
+        width: 300px; 
+        height: 300px; 
+    }
+    
+    .modal--input-header {
+        right: 20px;
+    }
+    .modal--input-header-icon {
+        font-size: 2rem;  
+        margin: auto;  
     }
 
     
